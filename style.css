@@ -79,13 +79,13 @@ img{
 }
 @media screen and (max-width: 600px) {
     td{
-        padding: 2px;
-        text-align: center;
-        font-size: 1.2em;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.2em;
     }
     th{
         font-size: 1em;
-        padding: 2px;
+        padding: 0px;
         background-color: hsl(240, 61%, 10%);;
     }
     img{
@@ -107,7 +107,7 @@ img{
         border-radius: 100%;
         display: inline-block;
         background-color: hsl(148, 87%, 15%);
-        width: 20px;
+        width: 5px;
         font-size: smaller;
         font-weight: bold;
         font-family: sans-serif;
@@ -117,7 +117,7 @@ img{
         border-radius: 100%;
         display: inline-block;
         background-color: hsl(180, 9%, 35%);
-        width: 20px;
+        width: 5px;
         font-size: 1.05em;
         font-weight: bold;
         font-family: sans-serif;
@@ -127,7 +127,7 @@ img{
         border-radius: 100%;
         display: inline-block;
         background-color: hsl(0, 87%, 41%);
-        width: 50px;
+        width: 5px;
         font-weight: bold;
         font-family: sans-serif;
     }
