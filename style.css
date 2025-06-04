@@ -14,10 +14,10 @@ table{
 td{
     padding: 5px;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 th{
-    font-size: 3em;
+    font-size: 2em;
     padding: 5px;
     background-color: hsl(240, 61%, 10%);;
 }
