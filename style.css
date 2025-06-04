@@ -29,7 +29,7 @@ img{
 .left-line {
     position: absolute;
     width: 15px;  
-    height: 70px;        
+    height: 60px;        
     background-color: hsl(128, 82%, 37%);
     display: inline-block;
     left: 0;
