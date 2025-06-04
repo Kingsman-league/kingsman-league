@@ -42,7 +42,7 @@ img{
     display: inline-block;
     background-color: hsl(148, 87%, 15%);
     width: 50px;
-    font-size: smaller;
+    font-size: 0px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -99,7 +99,7 @@ img{
     .left-line {
         position: absolute;
         width: 5px;  
-        height: 25px;        
+        height: 56px;        
         background-color: hsl(128, 82%, 37%);
         display: inline-block;
         left: 0;
