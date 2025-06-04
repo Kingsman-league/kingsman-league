@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    font-family: "Orbitron" ,sans-serif;
+    border: 2px none;
+    color: white;
+    background-color: hsl(240, 61%, 13%);
+}
+table{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-style: none;
+}
+td{
+    padding: 5px;
+    text-align: center;
+    font-size: 3.5em;
+}
+th{
+    font-size: 4em;
+    padding: 5px;
+    background-color: hsl(240, 61%, 10%);;
+}
+img{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+.left-line {
+    position: absolute;
+    width: 15px;  
+    height: 70px;        
+    background-color: hsl(128, 82%, 37%);
+    display: inline-block;
+    left: 0;
+    margin-left: 5px;
+    margin-bottom: 150px;
+}
+.numbers{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.win{
+    border: 2px none;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: hsl(148, 87%, 15%);
+    width: 50px;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.draw{
+    border: 2px none;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: hsl(180, 9%, 35%);
+    width: 50px;
+    font-size: 1.05em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.loss{
+    border: 2px none;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: hsl(0, 87%, 41%);
+    width: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#bottom{
+    background-color: red;
+}
+.wins{
+    color: hsl(120, 73%, 34%);
+}
+.draws{
+    color: hsl(0, 3%, 31%);
+}
+.losses{
+    color: hsl(0, 80%, 44%);
+}
