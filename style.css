@@ -77,3 +77,58 @@ img{
 .losses{
     color: hsl(0, 80%, 44%);
 }
+@media screen and (max-width: 600px) {
+    td{
+        padding: 2px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    th{
+        font-size: 1em;
+        padding: 2px;
+        background-color: hsl(240, 61%, 10%);;
+    }
+    img{
+        height: 15px;
+        width: 15px;
+        vertical-align: middle;
+    }
+    .left-line {
+        position: absolute;
+        width: 5px;  
+        height: 25px;        
+        background-color: hsl(128, 82%, 37%);
+        display: inline-block;
+        left: 0;
+        margin-left: 5px;
+    }
+    .win{
+        border: 2px none;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: hsl(148, 87%, 15%);
+        width: 20px;
+        font-size: smaller;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .draw{
+        border: 2px none;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: hsl(180, 9%, 35%);
+        width: 20px;
+        font-size: 1.05em;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .loss{
+        border: 2px none;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: hsl(0, 87%, 41%);
+        width: 50px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+}
