@@ -1,23 +1,32 @@
 body{
     margin: 0px;
     border: 2px none;
+    background-image: url(images/goal_post.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 9em;
     color: white;
-    background-color: hsl(240, 61%, 13%);
+    font-family: 'Franklin Gothic Medium';
 }
 table{
     font-family: "Orbitron" ,sans-serif;
+    padding: 0px;
+    color: white;
     width: 50%;
+    margin-left: 25%;
     border-left: none;
     border-right: none;
     border-style: none;
 }
 td{
-    padding: 5px;
     text-align: center;
-    font-size: 3em;
+    font-size: 1em;
+    background-color: hsl(240, 61%, 13%);
 }
-th{
-    font-size: 2.5em;
+tr{
+    font-size: 1.5em;
     padding: 5px;
     background-color: hsl(240, 61%, 10%);;
 }
@@ -26,31 +35,35 @@ img{
     width: 50px;
     vertical-align: middle;
 }
+
 .left-line {
-    position: absolute;
     width: 15px;  
     height: 60px;        
     background-color: hsl(128, 82%, 37%);
     display: inline-block;
-    left: 0;
-    margin-left: 5px;
-    margin-bottom: 150px;
+    float: left;
 }
 .win{
+    position: initial;
     border: 2px none;
     border-radius: 100%;
     display: inline-block;
     background-color: hsl(148, 87%, 15%);
-    width: 50px;
+    height: 25px;
+    width: 25px;
+    font-size: 1.05em;
     font-weight: bold;
     font-family: sans-serif;
+    text-align: center;
 }
 .draw{
     border: 2px none;
     border-radius: 100%;
     display: inline-block;
     background-color: hsl(180, 9%, 35%);
-    width: 50px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
     font-size: 1.05em;
     font-weight: bold;
     font-family: sans-serif;
@@ -60,7 +73,10 @@ img{
     border-radius: 100%;
     display: inline-block;
     background-color: hsl(0, 87%, 41%);
-    width: 50px;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 1.05em;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -139,4 +155,54 @@ img{
         font-weight: bold;
         font-family: sans-serif;
     }
+}
+#navbar{
+    background-color: hsl(69, 100%, 44%);
+    height: 75px;
+}
+li{
+    float: left;
+    padding: 25px;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+}
+.navtool{
+    text-decoration: none;
+    padding: 23px;
+    transition: 2s;
+    color: beige;
+}
+.navtool:hover{
+    background-color:hsl(69, 100%, 34%);;
+}
+p{
+    margin-left: 5%;
+    background-color: rgb(52, 51, 51);
+    width: 90%;
+    color: hsl(0, 1%, 59%);
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#contact_me{
+    color: rgb(75, 102, 143);
+    font-size: 2em;
+    text-align: center;
+    margin-left: 45%;
+    text-decoration: dashed;
+}
+#bugs{
+    width: 30%;
+    margin-right: 5%;
+    background-color: inherit;
+}
+footer{
+    background-color: hsl(0, 1%, 20%);
+    color: white;
+    bottom: 0;
+    width: 100%;
 }
